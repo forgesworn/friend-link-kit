@@ -1,0 +1,18 @@
+[package]
+name = "decented-invite"
+description = "Friend links for decentralised games: the link format and its two-layer encrypted hello packet. Pure, no networking."
+version = "0.8.19"
+edition = "2021"
+license = "MIT"
+authors = ["decented"]
+repository = "https://github.com/forgesworn/friend-link-kit"
+
+[dependencies]
+base64 = "0.22"
+getrandom = "0.3"
+hex = "0.4"
+hkdf = "0.12"
+nostr = { version = "=0.44.8", features = ["nip44", "nip59"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"

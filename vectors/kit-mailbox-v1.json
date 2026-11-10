@@ -1,0 +1,7 @@
+{
+  "note": "Kit vector, made for this crate and computed independently with Python hmac/hashlib (HKDF-SHA256, 32 bytes). Same licence as the crate (MIT).",
+  "salt": "decented-play:mailbox:v1",
+  "info": "test-app",
+  "secret": "4242424242424242424242424242424242424242424242424242424242424242",
+  "mailboxPrivateKey": "3178a825762b9fe9080a4a463a24aadc7b688447ae2483de762b2c3868dc8aeb"
+}

@@ -1,0 +1,7 @@
+{
+  "note": "Copied from forgesworn/signet-contacts vectors/contact-invite-v1.json (fields inviteSecret and mailboxPrivateKey only). Source: https://github.com/forgesworn/signet-contacts, licence MIT, Copyright (c) 2026 ForgeSworn; see NOTICE. The mailbox key is HKDF-SHA256(IKM = inviteSecret, salt = salt, info = empty), 32 bytes.",
+  "salt": "signet-contacts:mailbox:v1",
+  "info": "",
+  "inviteSecret": "7777777777777777777777777777777777777777777777777777777777777777",
+  "mailboxPrivateKey": "70526a6605eabea298f2c133f0b0c73e1a318089a5e88e19d952b6909bdfeb2a"
+}
